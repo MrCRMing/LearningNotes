@@ -1,5 +1,5 @@
-#Head 1
-##Head 2 （可以加1-6个#）
+# Head 1
+## Head 2 （可以加1-6个#）
 Head 3
 ======
 Head 4
@@ -10,9 +10,9 @@ Head 4
 
 >>this is a nested blockquote.
  
->###这是一个嵌套的标题
+>### 这是一个嵌套的标题
 
-###无序列表
+### 无序列表
 * red
 * green
 * blue
@@ -31,7 +31,7 @@ Head 4
 *	Suspendisse id sem consectetuer libero luctus 	adipiscing.
 
 *	Suspendisse id sem consectetuer libero luctus adipiscing.	
-###有序列表
+### 有序列表
 1. A
 2. B
 3. C  
@@ -59,7 +59,7 @@ Head 4
 
 4\. 为避免项目列表会不小心产生，可以在句点前面加上反斜杠.
 
-###5. 代码区块
+### 5. 代码区块
 	//这是一个代码区
 		int main()
 		{
@@ -71,7 +71,7 @@ Head 4
 		}
 	//代码区结束
 
-###6. 分割线  
+### 6. 分割线  
 ***
 ---
 ————————————————————————————————
@@ -79,7 +79,7 @@ Head 4
 - - -
 —— —— —— —— —— —— —— —— —— —— ——
 
-###7.链接
+### 7.链接
 行内式：链接文字用[]标记，行内式链接只要在[]后面紧接着（）并插入网址链接即可，如果想加上title，只要在网址后面用双引号把title包起来即可，例如：
 > This is [an example][http://example.com/"Title"] inline link  
 
@@ -98,14 +98,14 @@ Head 4
 >[Google][]
 >[Google]: http://gogle.com/ "Google is here"
 
-###强调
+### 强调
 用*或_左右包围，可以用1-3个如：  
 *强调1*  
 _强调2_  
 **强调3**  
 __强调4__   
 但如果*和_两边都有空白的话，就只会被当成普通的符号
-###代码
+### 代码
 如果要标记一小段行内代码，可以用方括号包起来如：
 >Use the `printf()` function
 ### 图片
@@ -127,10 +127,10 @@ __强调4__
 若是要加标注，可以是：
 <center>
 <img src="01.jpg" width="50%" height="50%"/>
-#**Luffy**
+# **Luffy**
 </center>
 
-###反斜杆
+### 反斜杆
 Markdown支持一下的符号前面加上反斜杠来帮助插入普通符号:   
 \\   反斜线  
 \`   反引号  
